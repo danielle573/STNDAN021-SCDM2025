@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-SA_Agulhas_file = pd.read_csv("../../Desktop/Assignments/BIO5012W/SCDM/P2_Assignment/SAA2_WC_2017_metocean_10min_avg.csv")
+SA_Agulhas_file = pd.read_csv("SAA2_WC_2017_metocean_10min_avg.csv")
 SA_Agulhas_dataframe = pd.DataFrame(SA_Agulhas_file)
 print(SA_Agulhas_dataframe)
 
